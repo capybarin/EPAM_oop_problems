@@ -1,7 +1,7 @@
 package com.company;
 import java.util.ArrayList;
 
-public class Husband implements All_Items, Purchase {
+public class Husband implements Purchase {
     private ArrayList<String> toBuyItems = new ArrayList<>();
     private ArrayList<Item> allItemsC = new ArrayList<>();
 
